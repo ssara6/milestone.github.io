@@ -4,7 +4,7 @@ var add1 = document.querySelector(".add");
 
 class item {
   constructor(name) {
-    this.create(name);
+    this.create one(name);
   }
   create(name) {
     var l1 = document.createElement("div");
@@ -32,8 +32,8 @@ class item {
   }
 }
 
-add1.addEventListener("click", check);
-window.addEventListener("keydown", (e) => {
+add1.addEvent("click", check);
+window.addEvent("keydown", (e) => {
   if (e.which == 13) {
     check();
   }
