@@ -32,7 +32,7 @@ h1 {
   height: 50px;
   border-radius: 10px;
   width: 320px;
-  margin: 0.3rem;
+  margin: 0.4rem;
   transition: 0.5s;
   font-size: 1.15rem;
 }
@@ -77,9 +77,9 @@ h1 {
 }
 
 .remove {
-  background: #00ff00;
+  background: none;
   outline: none;
-  border: 11;
+  border: none;
   color: #ff6363;
   font-size: 2rem;
   margin-bottom: 30px;
